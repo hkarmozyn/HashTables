@@ -9,11 +9,20 @@ public class HashTable {
        size = 0;
 
     }
+    public void addSize(int newIndex){
+        for(int i = 0; i <=newIndex; i++){
+            if(values.size() <= newIndex && i >= values.size()){
+                values.add(i,"");
+            }
+        }
+
+    }
 
 
 
     public boolean put(String key, String value){
         int index = hashCode(key);
+        addSize(index);
         if(!values.get(index).equals("")){
             return false;
         }
