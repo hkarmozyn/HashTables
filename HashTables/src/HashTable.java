@@ -71,5 +71,6 @@ public class HashTable {
         System.out.println("Total: " + sum);
         // Convert the computed value to an integer and return it
         return Integer.parseInt(output.toString());
+
     }
 }
