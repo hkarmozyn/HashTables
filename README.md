@@ -28,3 +28,8 @@ A large prime number is a better in a HashTable because when the keys of a map a
 
 
    
+
+
+
+Read me !
+This Java program implements a basic hash table data structure. The HashTable class utilizes an ArrayList<String> to store values and provides methods for adding and retrieving elements based on a key. The key's hash code is computed to determine its storage index in the hash table.
